@@ -1,6 +1,7 @@
-// src/pages/Home.jsx
+import CardLogement from '../components/Card'
+
 function Home() {
-    return <h1>Page d’accueil</h1>
+    return <h1>Chez vous, partout et ailleurs</h1>
 }
 
 export default Home

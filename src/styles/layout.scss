@@ -1,0 +1,30 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+    max-width: 1240px;
+
+    @media (max-width: 768px) {
+        margin: 40px 40px 50px 40px;
+    }
+}
+
+main {
+    margin: 0px 100px;
+    max-width: 1240px;
+
+    @media (max-width: 768px) {
+        margin: 0px 40px;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin-top: 50px;
+
+    @media (max-width: 768px) {
+        margin-top: 40px;
+    }
+}

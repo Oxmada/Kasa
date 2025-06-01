@@ -6,6 +6,7 @@ function Home() {
     return (
         <div>
             <Banner showText={true} image={bannerHome} alt="Falaises en bord de mer" opacity={0.6} />
+            <CardLogement />
         </div>
     );
 }

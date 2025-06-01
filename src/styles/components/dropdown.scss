@@ -1,0 +1,47 @@
+.dropdown {
+    margin: 30px 108.5px;
+
+    .dropdown-header {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        background: #FF6060;
+        padding: 10px;
+        border-radius: 5px;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        align-items: center
+    }
+
+    .chevron {
+        transition: transform 0.3s;
+        width: 32px;
+        height: 32px;
+    }
+
+    .chevron.open {
+        transform: rotate(-180deg);
+    }
+
+    .dropdown-content {
+        background: #F6F6F673;
+        padding: 20px;
+        border-radius: 5px;
+        font-size: 18px;
+        font-weight: 400;
+        animation: fadeIn 0.3s ease-in;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            max-height: 0;
+        }
+
+        to {
+            opacity: 1;
+            max-height: 500px;
+        }
+    }
+}

@@ -6,6 +6,12 @@
     gap: 55px;
     border-radius: 25px;
 
+    .card-logement-link {
+        text-decoration: none;
+        color: inherit;
+        display: block;
+    }
+
     .card-logement {
         height: 340px;
         background-color: #ccc;

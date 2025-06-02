@@ -1,0 +1,51 @@
+.carousel {
+    position: relative;
+    width: 100%;
+    height: 415px;
+    margin-bottom: 30px;
+
+    .carousel-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .carousel-arrow {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+
+        img {
+            width: 46.68px;
+            height: 79.2px;
+        }
+
+        &.left {
+            left: 15px;
+        }
+
+        &.right {
+            right: 15px;
+
+            img {
+                transform: rotate(180deg);
+            }
+        }
+    }
+
+    .carousel-counter {
+        position: absolute;
+        bottom: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        color: white;
+        padding: 5px 12px;
+        border-radius: 10px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}

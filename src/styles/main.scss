@@ -1,9 +1,11 @@
 @use './utils/mixins.scss';
 @use './base.scss';
 @use './layout.scss';
-@use './NotFound.scss';
+@use './pages/housing.scss';
+@use './pages/notFound.scss';
 @use './components/header.scss';
 @use './components/footer.scss';
 @use './components/banner.scss';
 @use './components/cardLogement.scss';
 @use './components/dropdown.scss';
+@use './components/carrousel.scss';

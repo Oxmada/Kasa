@@ -1,6 +1,4 @@
 .dropdown {
-    margin: 30px 108.5px;
-
     .dropdown-header {
         display: flex;
         justify-content: space-between;
@@ -11,17 +9,17 @@
         color: white;
         font-size: 18px;
         font-weight: 700;
-        align-items: center
+        align-items: center;
     }
 
     .chevron {
         transition: transform 0.3s;
         width: 32px;
         height: 32px;
-    }
 
-    .chevron.open {
-        transform: rotate(-180deg);
+        &.open {
+            transform: rotate(-180deg);
+        }
     }
 
     .dropdown-content {
@@ -30,6 +28,7 @@
         border-radius: 5px;
         font-size: 18px;
         font-weight: 400;
+        line-height: 143%;
         animation: fadeIn 0.3s ease-in;
     }
 
@@ -43,5 +42,13 @@
             opacity: 1;
             max-height: 500px;
         }
+    }
+
+    &.dropdown-about {
+        margin: 30px 108.5px;
+    }
+
+    &.dropdown-housing {
+        margin: 0;
     }
 }

@@ -4,6 +4,11 @@
     height: 415px;
     margin-bottom: 30px;
 
+    @media (max-width: 768px) {
+        height: 255px;
+    }
+
+
     .carousel-image {
         width: 100%;
         height: 100%;
@@ -22,6 +27,11 @@
         img {
             width: 46.68px;
             height: 79.2px;
+
+            @media (max-width: 768px) {
+                width: 24px;
+                height: 24px;
+            }
         }
 
         &.left {
@@ -47,5 +57,9 @@
         border-radius: 10px;
         font-size: 18px;
         font-weight: 500;
+
+        @media (max-width: 768px) {
+            display: none;
+        }
     }
 }

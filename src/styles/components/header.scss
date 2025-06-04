@@ -1,15 +1,25 @@
+.logo-header {
+    width: 210.32px;
+    height: 68px;
+
+    @media (max-width: 768px) {
+        width: 145px;
+        height: 46.88px;
+    }
+}
+
 nav {
     display: flex;
     align-items: center;
 
-    .logo-header {
-        width: 210.32px;
-        height: 68px;
-    }
-
     .nav-list {
         display: flex;
         gap: 57px;
+
+        @media (max-width: 768px) {
+            gap: 26px;
+        }
+
 
         .nav-item {
             a {
@@ -20,8 +30,18 @@ nav {
                 border-bottom: 1px solid transparent;
                 transition: border-bottom 0.3s;
 
+                @media (max-width: 768px) {
+                    font-size: 12px;
+                    text-transform: uppercase;
+                }
+
                 &:hover {
                     border-bottom: 2px solid black;
+
+                    @media (max-width: 768px) {
+                        border-bottom: 1px solid black;
+                    }
+
                 }
             }
         }

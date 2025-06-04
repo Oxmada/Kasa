@@ -10,12 +10,21 @@
         font-size: 18px;
         font-weight: 700;
         align-items: center;
+
+        @media (max-width: 768px) {
+            font-size: 13px;
+        }
     }
 
     .chevron {
         transition: transform 0.3s;
         width: 32px;
         height: 32px;
+
+        @media (max-width: 768px) {
+            width: 16px;
+            height: 9.14px;
+        }
 
         &.open {
             transform: rotate(-180deg);
@@ -30,6 +39,11 @@
         font-weight: 400;
         line-height: 143%;
         animation: fadeIn 0.3s ease-in;
+
+        @media (max-width: 768px) {
+            font-size: 13px;
+            padding: 10px;
+        }
     }
 
     @keyframes fadeIn {
@@ -46,6 +60,10 @@
 
     &.dropdown-about {
         margin: 30px 108.5px;
+
+        @media (max-width: 768px) {
+            margin: 15px 0;
+        }
     }
 
     &.dropdown-housing {

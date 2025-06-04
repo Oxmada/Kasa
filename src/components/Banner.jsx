@@ -6,7 +6,11 @@ function Banner({ showText = true, image, alt, opacity = 1 }) {
                 className="banner-overlay"
                 style={{ backgroundColor: `rgba(0,0,0,${opacity})` }}
             />
-            {showText && <h1 className="banner-text">Chez vous, partout et ailleurs</h1>}
+            {showText && (
+                <h1 className="banner-text">
+                    Chez vous,<span className="responsive-break"> partout et ailleurs</span>
+                </h1>
+            )}
         </div>
     );
 }

@@ -1,4 +1,5 @@
-import { useParams } from 'react-router-dom'
+import { useParams, useNavigate } from 'react-router-dom'
+import { useEffect } from 'react';
 import annonces from '../../annonces.json';
 import Carrousel from '../components/Carousel';
 import HostInfo from '../components/HostInfo';
@@ -8,7 +9,16 @@ import Dropdown from '../components/Dropdown';
 
 function Housing() {
     const { id } = useParams();
+    const navigate = useNavigate();
     const logement = annonces.find((item) => item.id === id);
+
+    useEffect(() => {
+        if (!logement) {
+            navigate('/404', { replace: true });
+        }
+    }, [logement, navigate]);
+
+    if (!logement) return null;
 
     return (
         <div>

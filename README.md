@@ -1,12 +1,35 @@
-# React + Vite
+![Logo Kasa](src/assets/logo.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🏠 Projet Kasa
+Développement d’un site web avec React, Vite Sass de location d’appartements entre particuliers.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ⚛️ React + Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Ce projet utilise **React** avec **Vite** pour un développement rapide avec HMR (Hot Module Replacement).
+
+Deux plugins officiels sont disponibles :
+- [`@vitejs/plugin-react`](https://github.com/vitejs/vite-plugin-react) – utilise **Babel**
+- [`@vitejs/plugin-react-swc`](https://github.com/vitejs/vite-plugin-react-swc) – utilise **SWC**
+
+Le projet utilise également **Sass** pour la gestion des styles :  
+```bash
+npm install -D sass
+```
+
+## 🧹 Configuration ESLint
+
+Pour un projet en production, il est recommandé d’utiliser **TypeScript** avec des règles ESLint typées.
+
+➡️ Consulte le [template React + TS](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts)  
+➡️ Et la doc de [`typescript-eslint`](https://typescript-eslint.io)
+
+## 🔗 Liens utiles
+
+| 🌐 **Version hébergée**                        | 🎨 **Maquette Figma**                              |
+|-----------------------------------------------|--------------------------------------------------|
+| [Voir en ligne](https://oxmada.github.io/Kasa/) | [Accéder à la maquette](www.figma.com/design/2BZEoBhyxt5IwZgRn0wGsL/Kasa_FR?t=derfAm5ZoRAz5Pwr-0) |
+

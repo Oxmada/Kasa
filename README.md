@@ -3,7 +3,7 @@
 ---
 
 ## 🏠 Projet Kasa
-Développement d’un site web avec React, Vite Sass de location d’appartements entre particuliers.
+Développement d’un site web de location d’appartements entre particuliers avec React + Vite et Sass.
 
 ---
 
